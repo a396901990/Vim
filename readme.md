@@ -1,3 +1,5 @@
+# Vim
+
 `cp _vimrc ~/ .vimrc`
 
 `curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
@@ -6,3 +8,9 @@
 `:PlugInstall`
 
 https://github.com/junegunn/vim-plug/
+
+# zsh & item2
+http://wdxtub.com/2016/02/18/oh-my-zsh/
+
+
+# tmux
