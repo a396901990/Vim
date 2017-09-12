@@ -9,6 +9,10 @@
 
 https://github.com/junegunn/vim-plug/
 
+# ctrlp.vim
+finder for vim
+https://github.com/kien/ctrlp.vim
+
 # zsh & item2
 http://wdxtub.com/2016/02/18/oh-my-zsh/
 

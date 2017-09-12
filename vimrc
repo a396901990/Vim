@@ -1,13 +1,11 @@
 call plug#begin('~/.vim/plugged')
-Plug 'rdolgushin/groovy.vim'
 Plug 'kana/vim-fakeclip'
 Plug 'sjl/badwolf'
 Plug 'derekwyatt/vim-scala'
 Plug 'kien/rainbow_parentheses.vim'
-Plug 'rust-lang/rust.vim'
 Plug 'dracula/vim'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'fatih/vim-go'
+Plug 'scrooloose/nerdtree.vim'
 Plug 'hashivim/vim-terraform'
 " Plug 'suan/vim-instant-markdown'
 call plug#end()
@@ -44,9 +42,13 @@ set preserveindent
 set softtabstop=0
 set shiftwidth=2
 set tabstop=2
-let g:go_fmt_command="goimports"
-let g:go_fmt_fail_silently=1
-let g:go_fmt_autosave = 1
 autocmd BufWritePre * %s/\s\+$//e
 set clipboard=unnamedplus
 let g:terraform_align=1
+
+" NERDTree plugin
+map <F2> :NERDTreeToggle<CR>
+let g:NERDTreeDirArrows = 1
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+let g:NERDTreeGlyphReadOnly = "RO"
