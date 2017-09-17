@@ -19,3 +19,4 @@ http://wdxtub.com/2016/02/18/oh-my-zsh/
 
 # tmux
 brew install tmux
+config: https://github.com/gpakosz/.tmux
