@@ -5,7 +5,7 @@ Plug 'derekwyatt/vim-scala'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'dracula/vim'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'scrooloose/nerdtree.vim'
+Plug 'scrooloose/nerdtree'
 Plug 'hashivim/vim-terraform'
 " Plug 'suan/vim-instant-markdown'
 call plug#end()
